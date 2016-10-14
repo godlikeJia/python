@@ -17,12 +17,12 @@ git push origin develop
 // 查看远程分支 -a 全部分支
 git branch -r  
 
-git study
-new-feature
-
 // 删除本地分支
 git branch -d feature-new
 // 删除远程分支
 git push origin --delete feature-new
 
-conflict
+// fix conflict
+git add git_detail.txt 
+git commit -m 'fix conflict'  // cant assign file name
+
