@@ -26,3 +26,6 @@ git push origin --delete feature-new
 git add git_detail.txt 
 git commit -m 'fix conflict'  // cant assign file name
 
+
+// 增加tag
+git tag -a v1.4 -m 'my version 1.4'
