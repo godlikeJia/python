@@ -19,3 +19,8 @@ git branch -r
 
 git study
 new-feature
+
+conflict
+
+
+
