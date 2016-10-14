@@ -6,3 +6,13 @@ git checkout develop
 
 // 创建并切换分支
 git checkout -b develop
+
+// merge 首先切到要合并到的分支上
+git merge --no-ff develop
+
+// 推送分支
+git push origin develop
+
+
+// 查看远程分支 -a 全部分支
+git branch -r  
