@@ -1,0 +1,8 @@
+// 创建develop分支
+git branch develop
+
+// 切换分支
+git checkout develop
+
+// 创建并切换分支
+git checkout -b develop
