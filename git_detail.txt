@@ -24,3 +24,5 @@ new-feature
 git branch -d feature-new
 // 删除远程分支
 git push origin --delete feature-new
+
+conflict
