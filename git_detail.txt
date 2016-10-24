@@ -29,3 +29,7 @@ git commit -m 'fix conflict'  // cant assign file name
 
 // 增加tag
 git tag -a v1.4 -m 'my version 1.4'
+
+// 推送tag
+git push origin v1.5  // 特定tag
+git push origin --tags  // 所有tag
