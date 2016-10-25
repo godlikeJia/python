@@ -24,22 +24,3 @@ new-feature
 git branch -d feature-new
 // 删除远程分支
 git push origin --delete feature-new
-
-// fix conflict
-git add git_detail.txt 
-git commit -m 'fix conflict'  // cant assign file name
-
-
-// 增加tag
-git tag -a v1.4 -m 'my version 1.4'
-
-// 推送tag
-git push origin v1.5  // 特定tag
-git push origin --tags  // 所有tag
-
-
-You may need to prune your local "cache" of remote branches first. Try running:
-git fetch -p origin
-before deleting.
-
-
