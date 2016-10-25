@@ -38,3 +38,10 @@ git push origin --tags  // 所有tag
 You may need to prune your local "cache" of remote branches first. Try running:
 git fetch -p origin
 before deleting.
+
+// 怎样查看已经提交,但没push的分支
+git log origin/develop..develop
+
+
+//Fatal: cannot do a partial commit during a merge 
+git commit -a
