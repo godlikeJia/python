@@ -40,7 +40,7 @@ git fetch -p origin
 before deleting.
 
 // 怎样查看已经提交,但没push的分支
-
+git log origin/develop..develop
 
 
 //Fatal: cannot do a partial commit during a merge 
