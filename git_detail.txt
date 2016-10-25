@@ -38,5 +38,3 @@ git push origin --tags  // 所有tag
 You may need to prune your local "cache" of remote branches first. Try running:
 git fetch -p origin
 before deleting.
-
-
