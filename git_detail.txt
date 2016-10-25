@@ -41,3 +41,7 @@ before deleting.
 
 // 怎样查看已经提交,但没push的分支
 
+
+
+//Fatal: cannot do a partial commit during a merge 
+git commit -a
