@@ -45,3 +45,26 @@ git log origin/develop..develop
 
 //Fatal: cannot do a partial commit during a merge 
 git commit -a
+
+// 撤销合并
+git revert -m 1 commitID
+
+
+// 从缓存区删除,但不从目录中删除
+git rm --cached readme.txt
+git rm --cached readme.txt
+
+
+// git log
+git log -p -2  // -p 选项展开显示每次提交的内容差异,用-2 则仅显示最近的两次更新:
+// --stat ,仅显示简要的增改行数统计
+// --pretty=*** 不同的格式显示
+//-(n) 仅显示最近的 n 条提交
+//--since, --after 仅显示指定时间之后的提交。
+//--until, --before 仅显示指定时间之前的提交。
+//--author 仅显示指定作者相关的提交。
+//--committer 仅显示指定提交者相关的提交。
+
+
+// 修改最后一次提交
+git commit -amend
